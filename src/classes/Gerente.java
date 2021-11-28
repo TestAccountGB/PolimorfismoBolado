@@ -25,4 +25,9 @@ public class Gerente extends Funcionario{
 	public void calcularSalario() {
 		this.salario = this.salario + this.pnl;
 	}
+	
+	@Override
+	public void test() {
+		System.out.println("Gerente");
+	}
 }

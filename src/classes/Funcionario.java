@@ -44,4 +44,8 @@ public abstract class Funcionario {
 	
 	public abstract void calcularSalario();
 	
+	public void test() {
+		System.out.println("Funcionario");
+	}
+	
 }

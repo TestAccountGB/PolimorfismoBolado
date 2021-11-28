@@ -26,4 +26,9 @@ public class Vendedor extends Funcionario {
 	public void calcularSalario() {
 		this.salario = this.salario + (this.vendas * 0.10);
 	}
+	
+	@Override
+	public void test() {
+		System.out.println("Vendedor");
+	}
 }

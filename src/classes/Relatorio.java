@@ -7,7 +7,8 @@ public class Relatorio {
 		System.out.println("Nome: " + funcionario.getNome());
 		System.out.println("Idade: " + funcionario.getIdade());
 		System.out.println("Salario: " + funcionario.getSalario());
-		if(funcionario instanceof Gerente) {
+		if(funcionario instanceof Gerente) {//Mas mesmo fazendo um Upcast o java percebe que aquela varivel aponta
+			//Pra um outro tipo de classe
 			Gerente g = (Gerente) funcionario;
 			System.out.println("PNL: " + g.getPnl());
 		}
